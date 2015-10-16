@@ -1,7 +1,7 @@
 body {
 	width: 1260px;
-    height: 768px;
-    background-color: white;
+	height: 768px;
+	background-color: white;
 	margin-bottom: 40px;
 }
 
@@ -31,7 +31,7 @@ body {
 h2 {
 	text-align: center;
 	margin-bottom: 1px;
-	}
+}
 
 .class_1 {
 	text-align: left;
@@ -43,26 +43,26 @@ h2 {
 
 .class_2 {
 	text-align: left;
-    border-bottom: 1px solid grey;
-    padding: 5px;
-    margin-left: 45px;
-    margin-right: 45px;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 
 .class_3 {
 	text-align: left;
-    border-bottom: 1px solid grey;
-    padding: 5px;
-    margin-left: 45px;
-    margin-right: 45px;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 
 .class_4 {
 	text-align: left;
-    padding: 5px;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 10px;
+	padding: 5px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 10px;
 }
 
 p {
