@@ -24,7 +24,10 @@ h2 {
 }
 
 .img img {
-    position: static; left: 0; right: 0; margin: 0 auto; width: 119px; height: 150px;
+    position: static;
+    margin: 0 auto;
+    width: 119px;
+    height: 150px;
     border-radius: 10px 10px 10px 10px;
 }
 
