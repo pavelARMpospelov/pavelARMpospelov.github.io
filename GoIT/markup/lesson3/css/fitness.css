@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+    font-family: Myriad Pro Regular, Sample, sans-serif;
+}
+
+.wrapper {
+    width: 968px;
+    height: 100%;
+    padding: 0 46px;
+    margin: 0 auto;
+    background: white;
+}
+
+.header {
+    padding-top:50px;
+    padding-bottom: 40px;
+}
+
+.menu {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom,  rgba(94,94,94,1) 0%,rgba(94,94,94,1) 13%,rgba(94,94,94,1) 13%,rgba(68,67,67,1) 100%,rgba(68,67,67,1) 100%); /* W3C */
+    margin-bottom: 40px;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 45px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: linear-gradient(to bottom, rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+    border: 0 groove;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.sidemenu a {
+    display: block;
+    line-height: 40px;
+    padding-left: 25px;
+    color: #656363;
+    text-decoration: none;
+}
+
+.sidemenu li {
+    border: 1px solid #c8c8c8;
+}
+
+.sidemenu a:hover {
+    background: #f9f9f9;
+}
+
+.sidemenu {
+    float: left;
+    width: 236px;
+    border: 1px solid #c8c8c8;
+}
+
+.article {
+    float: right;
+    width: 680px;
+}
+
+.article-img {
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.img-descr {
+    padding: 35px 22px 0 22px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.footer-menu {
+    position: relative;
+    overflow: hidden;
+    background: #e1e1e1;
+}
+
+.footer-menu li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+}
+
+.footer {
+    padding: 50px 0;
+}
+
+.footer-menu a {
+    display: block;
+    color: #2c2c2c;
+    padding: 0 45px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu li:last-child {
+    float: right;
+    padding-right: 40px;
+}
