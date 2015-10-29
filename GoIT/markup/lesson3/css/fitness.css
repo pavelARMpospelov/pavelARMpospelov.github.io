@@ -14,6 +14,7 @@ body {
     padding: 0 46px;
     margin: 0 auto;
     background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .header {
@@ -66,12 +67,12 @@ body {
 
 .sidemenu a:hover {
     background: #f9f9f9;
+    padding-left: 40px;
 }
 
 .sidemenu {
     float: left;
     width: 236px;
-    border: 1px solid #c8c8c8;
 }
 
 .article {
