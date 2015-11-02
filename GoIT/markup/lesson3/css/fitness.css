@@ -63,6 +63,11 @@ body {
 
 .sidemenu li {
     border: 1px solid #c8c8c8;
+    border-bottom: 0;
+}
+
+.sidemenu > li:last-child {
+    border-bottom: 1px solid #c8c8c8;
 }
 
 .sidemenu a:hover {
