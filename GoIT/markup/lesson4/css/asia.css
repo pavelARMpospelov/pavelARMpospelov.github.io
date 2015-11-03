@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-bottom: 3px solid #031d28;
- }
+}
 
 .header {
     background-color: white;
@@ -51,6 +51,7 @@ body {
 .mid-menu {
     background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(18,18,18,1) 0%, rgba(56,56,56,1) 0%, rgba(64,64,64,1) 0%, rgba(43,43,43,1) 0%, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 0%, rgba(28,28,28,1) 0%, rgba(48,48,48,1) 100%);
     border-top: 1px solid grey;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .mid-menu li {
@@ -85,9 +86,12 @@ ul:after {
 }
 
 ul.menu > li {
+    display: inline-block;
     float: left;
     position: relative;
     border-bottom: 1px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 ul.menu > li > a {
@@ -116,7 +120,6 @@ ul.submenu > li {
 ul.submenu > li > a {
     display: block;
     color: white;
-    background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(18,18,18,1) 0%, rgba(56,56,56,1) 0%, rgba(64,64,64,1) 0%, rgba(43,43,43,1) 0%, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 0%, rgba(28,28,28,1) 0%, rgba(48,48,48,1) 100%);
     text-decoration: none;
 }
 ul.submenu > li > a:hover {
@@ -133,15 +136,15 @@ ul.menu > li:hover > ul.submenu {
     height: 484px;
 }
 
-
-
 .info {
     float: left;
     width: 21%;
     background-color: #edeef0;
     border: 1px solid #c7cacf;
     border-bottom: 0;
+    border-top: 0;
     height: 100%;
+    line-height: 1.5;
 }
 
 .center {
@@ -157,7 +160,9 @@ ul.menu > li:hover > ul.submenu {
     float: right;
     border: 1px solid #c7cacf;
     border-bottom: 0;
+    border-top: 0;
     height: 100%;
+    line-height: 1.5;
 }
 
 p{
@@ -165,6 +170,7 @@ p{
     font-size: 14px;
     margin-left: 15px;
     line-height: 23px;
+    color: #7d837f;
 }
 
 h3 {
