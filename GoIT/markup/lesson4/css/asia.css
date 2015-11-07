@@ -71,6 +71,7 @@ body {
     color: white;
 }
 
+
 ul {
     display: block;
     margin: 0;
@@ -100,6 +101,17 @@ ul.menu > li > a {
     background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(18,18,18,1) 0%, rgba(56,56,56,1) 0%, rgba(64,64,64,1) 0%, rgba(43,43,43,1) 0%, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 0%, rgba(28,28,28,1) 0%, rgba(48,48,48,1) 100%);
     text-decoration: none;
     font-size: 14px;
+}
+
+.triangle > a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    height: 5px;
+    width: 6px;
+    background: url(../img/triangle.png) 0 0 no-repeat;
 }
 
 ul.menu > li > a:hover {
