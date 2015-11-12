@@ -167,6 +167,7 @@ ul.menu > li:hover > ul.submenu {
     background-color: white;
     float: left;
     height: 100%;
+    clear:both;
 }
 
 .news {
