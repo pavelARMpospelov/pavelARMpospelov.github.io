@@ -54,7 +54,7 @@ body {
     position: relative;
     box-shadow: 0 4px 4px 0 rgba(30, 30, 30, 0.72);
     border-bottom: 1px solid black;
-    clear: both;
+    /*clear: both;*/
 }
 
 .mid-menu li {
