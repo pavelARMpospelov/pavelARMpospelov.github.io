@@ -53,7 +53,6 @@ body {
     border-top: 1px solid grey;
     position: relative;
     box-shadow: 0 4px 4px 0 rgba(30, 30, 30, 0.72);
-    border-bottom: 1px solid black;
 }
 
 .mid-menu li {
@@ -148,6 +147,8 @@ ul.menu > li:hover > ul.submenu {
     width: 1000px;
     background-color: white;
     height: 484px;
+    border-top: 1px solid black;
+    clear: both;
 }
 
 .info {
@@ -163,6 +164,7 @@ ul.menu > li:hover > ul.submenu {
 
 .center {
     display: block;
+    width: 57.5%;
     background-color: white;
     float: left;
     height: 100%;
